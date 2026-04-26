@@ -1,7 +1,7 @@
 # General Overview
 This code computes tissue and cell type specificity of gene expression based on Human Protein Atlas (HPA) data. For cell types multiple are merged (in our case we merged acinar and ductal pancreatic cells to form the "exocrine component"). The underlying score is based on the tissue specificity score from Julien et al. (2012,PLoS Biol), but extended for entitiy-specific outcomes (not a tissue agnostic score).
 
-#  Required R-packages
+#  Required R-packages (R v. 4.2.0)
 *  data.table v. 1.15.2
 *  optparse v. 1.7.5
 
