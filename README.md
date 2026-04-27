@@ -1,5 +1,5 @@
 # General Overview
-This code computes tissue and cell type specificity of gene expression based on Human Protein Atlas (HPA) data. For cell types multiple are merged (in our case we merged acinar and ductal pancreatic cells to form the "exocrine component"). The underlying score is based on the tissue specificity score from Julien et al. (2012,PLoS Biol), but extended for entitiy-specific outcomes (not a tissue agnostic score).
+This code computes tissue and cell type specificity of gene expression based on Human Protein Atlas (HPA) data. For cell types, multiple are merged (in our case, we merged acinar and ductal pancreatic cells to form the "exocrine component"). The underlying score is based on the tissue specificity score from Julien et al. (2012,PLoS Biol), but extended for entity-specific outcomes (not a tissue agnostic score).
 
 #  Required R-packages (R v. 4.2.0)
 *  data.table v. 1.15.2
@@ -11,7 +11,7 @@ This code computes tissue and cell type specificity of gene expression based on 
 * rna_tissue_consensus.tsv
 * rna_single_cell_type.tsv
 
-Both can be downloaded from HPA website (v. 25).
+Both can be downloaded from the HPA website (v. 25).
 
 ## In the "entities" directory:
 * entities.txt, containing a one-column list of cell types to consider.
